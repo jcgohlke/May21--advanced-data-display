@@ -57,6 +57,15 @@ As you can tell by reading this, we will use Github for all assignments, notes, 
 * create a notification that takes text input as a response from the user
 
 ## Live Instruction Schedule
+
+Week | M | T | W | Th | F | Sa
+------------ | ------------- | ------------ | ------------- | ------------ | ------------- | ------------
+Week 0 | -- | -- | -- | -- | -- | _1st_ Kickoff
+Week 1 | -- | _4th_ 3.1 | -- | _6th_ 3.2 | -- | _8th_ Q&A
+Week 2 | -- | _11th_ 3.3 | -- | _13th_ 3.4 | -- | _15th_ Q&A
+Week 3 | -- | _18th_ 3.5 | -- | _20th_ 3.6 | -- | _22nd_ Q&A
+Week 4 | -- | _25th_ Q&A | -- | _27th_ Q&A | -- | _29th_ Q&A
+
 ### Week 1
 #### Day 1 - Sat. May 1st, 2021 @ 2:00 PM EDT
 * (_60 min_) Kickoff, meet your teacher/classmates
