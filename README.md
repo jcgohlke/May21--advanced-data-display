@@ -66,10 +66,11 @@ Week 2 | -- | _11th_ 3.3 | -- | _13th_ 3.4 | -- | _15th_ Q&A
 Week 3 | -- | _18th_ 3.5 | -- | _20th_ 3.6 | -- | _22nd_ Q&A
 Week 4 | -- | _25th_ Q&A | -- | _27th_ Q&A | -- | _29th_ Q&A
 
-### Week 1
+### Week 0
 #### Day 1 - Sat. May 1st, 2021 @ 2:00 PM EDT
 * (_60 min_) Kickoff, meet your teacher/classmates
 
+### Week 1
 #### Day 2 - Tue. May 4th, 2021 @ 8:00 PM EDT
 * (_60 min_) Lesson 3.1 - Collection Views
 * (_45 min_) Lab 3.1 - Emoji Dictionary
