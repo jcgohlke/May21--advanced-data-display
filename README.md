@@ -9,6 +9,6 @@ As you can tell by reading this, we will use Github for all assignments, notes, 
 ###### Twitter: [@FerrousGuy](http://www.twitter.com/FerrousGuy)
 ###### Github: [@jcgohlke](http://www.github.com/jcgohlke)
 
-## Table of Contents
+## Course Info
 * [Syllabus](https://github.com/jcgohlke/May21--advanced-data-display/wiki/Syllabus)
 * [Live Instruction Schedule](https://github.com/jcgohlke/May21--advanced-data-display/wiki/Live-Instruction-Schedule)
