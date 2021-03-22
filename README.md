@@ -9,6 +9,11 @@ As you can tell by reading this, we will use Github for all assignments, notes, 
 * Twitter: [@FerrousGuy](http://www.twitter.com/FerrousGuy)
 * Github: [@jcgohlke](http://www.github.com/jcgohlke)
 
+## Table of Contents
+* [Syllabus](https://github.com/jcgohlke/May21--advanced-data-display#syllabus)
+* [Live Instruction Schedule (Regular)](https://github.com/jcgohlke/May21--advanced-data-display#live-instruction-schedule)
+* [Live Instruction Schedule (Capstone)](https://github.com/jcgohlke/May21--advanced-data-display#live-instruction-schedule)
+
 ## Syllabus
 
 ### Lesson 3.1 Collection Views
