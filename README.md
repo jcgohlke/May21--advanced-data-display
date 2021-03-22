@@ -6,13 +6,12 @@ As you can tell by reading this, we will use Github for all assignments, notes, 
 
 ###### Ben | [bengohlke.com](http://www.bengohlke.com)
 
-* Twitter: [@FerrousGuy](http://www.twitter.com/FerrousGuy)
-* Github: [@jcgohlke](http://www.github.com/jcgohlke)
+###### Twitter: [@FerrousGuy](http://www.twitter.com/FerrousGuy)
+###### Github: [@jcgohlke](http://www.github.com/jcgohlke)
 
 ## Table of Contents
 * [Syllabus](https://github.com/jcgohlke/May21--advanced-data-display#syllabus)
-* [Live Instruction Schedule (Regular)](https://github.com/jcgohlke/May21--advanced-data-display#live-instruction-schedule-regular)
-* [Live Instruction Schedule (Capstone)](https://github.com/jcgohlke/May21--advanced-data-display#live-instruction-schedule-capstone)
+* [Live Instruction Schedule](https://github.com/jcgohlke/May21--advanced-data-display#live-instruction-schedule)
 
 ## Syllabus
 
@@ -57,26 +56,56 @@ As you can tell by reading this, we will use Github for all assignments, notes, 
 * create a notification category with two different actions that a user can take
 * create a notification that takes text input as a response from the user
 
-## Live Instruction Schedule (Regular)
-### Day 1
-* (_60 min_) Lesson Overview and Guided Project
-* (_45 min_) Lab
+## Live Instruction Schedule
+### Week 1
+#### Day 1 - Sat. May 1st, 2021 @ 2:00 PM EDT
+* (_60 min_) Kickoff, meet your teacher/classmates
 
-### Day 2
-* (_60 min_) Lesson Overview and Guided Project
-* (_45 min_) Lab
+#### Day 2 - Tue. May 4th, 2021 @ 8:00 PM EDT
+* (_60 min_) Lesson 3.1 Collection Views
+* (_45 min_) Lab 3.1 Emoji Dictionary
 
-### Day 3
+#### Day 3 - Thu. May 6th, 2021 @ 8:00 PM EDT
+* (_60 min_) Lesson 3.2 Generics
+* (_45 min_) Lab 3.2 Morse Code
+
+#### Day 4 - Sat. May 8th @ 2:00 PM EDT
 * (_30 min_) AMA for two previous lessons
 * Note: Lecture and Lab videos are posted to Vimeo
 
-## Live Instruction Schedule (Capstone)
-### Day 1
-* (_30 min_) AMA
+### Week 2
+#### Day 5 - Tue. May 11th, 2021 @ 8:00 PM EDT
+* (_60 min_) Lesson 3.3 Dynamic Data
+* (_45 min_) Lab 3.3 iTunes Search
 
-### Day 2
-* (_30 min_) AMA
+#### Day 6 - Thu. May 13th, 2021 @ 8:00 PM EDT
+* (_60 min_) Lesson 3.4 Compositional Layout
+* (_45 min_) Lab 3.4 Emoji Dictionary
 
-### Day 3
-* (_60 min_) AMA
+#### Day 7 - Sat. May 15th @ 2:00 PM EDT
+* (_30 min_) AMA for two previous lessons
+* Note: Lecture and Lab videos are posted to Vimeo
+
+### Week 3
+#### Day 8 - Tue. May 18th, 2021 @ 8:00 PM EDT
+* (_60 min_) Lesson 3.5 Advanced Compositional Layout
+* (_45 min_) Lab 3.5 iTunes Search
+
+#### Day 9 - Thu. May 20th, 2021 @ 8:00 PM EDT
+* (_60 min_) Lesson 3.6 Local Notifications
+* (_45 min_) Lab 3.6 Bill Manager
+
+#### Day 10 - Sat. May 22th @ 2:00 PM EDT
+* (_30 min_) AMA for two previous lessons
+* Note: Lecture and Lab videos are posted to Vimeo
+
+## Week 4
+### Day 11 - Tue. May 25th, 2021 @ 8:00 PM EDT
+* (_30 min_) Project/Course Q&A
+
+### Day 12 - Thu. May 27th, 2021 @ 8:00 PM EDT
+* (_30 min_) Project/Course Q&A
+
+### Day 13 - Sat. May 29th, 2021 @ 2:00 PM EDT
+* (_60 min_) Project/Course Q&A
 * Note: Capstone explainer video released
