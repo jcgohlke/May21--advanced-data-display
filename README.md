@@ -69,7 +69,7 @@ As you can tell by reading this, we will use Github for all assignments, notes, 
 * (_60 min_) Lesson 3.2 - Generics
 * (_45 min_) Lab 3.2 - Morse Code
 
-#### Day 4 - Sat. May 8th @ 2:00 PM EDT
+#### Day 4 - Sat. May 8th, 2021 @ 2:00 PM EDT
 * (_30 min_) AMA for two previous lessons
 * Note: Lecture and Lab videos are posted to Vimeo
 
@@ -82,7 +82,7 @@ As you can tell by reading this, we will use Github for all assignments, notes, 
 * (_60 min_) Lesson 3.4 - Compositional Layout
 * (_45 min_) Lab 3.4 - Emoji Dictionary
 
-#### Day 7 - Sat. May 15th @ 2:00 PM EDT
+#### Day 7 - Sat. May 15th, 2021 @ 2:00 PM EDT
 * (_30 min_) AMA for two previous lessons
 * Note: Lecture and Lab videos are posted to Vimeo
 
@@ -95,7 +95,7 @@ As you can tell by reading this, we will use Github for all assignments, notes, 
 * (_60 min_) Lesson 3.6 - Local Notifications
 * (_45 min_) Lab 3.6 - Bill Manager
 
-#### Day 10 - Sat. May 22th @ 2:00 PM EDT
+#### Day 10 - Sat. May 22th, 2021 @ 2:00 PM EDT
 * (_30 min_) AMA for two previous lessons
 * Note: Lecture and Lab videos are posted to Vimeo
 
