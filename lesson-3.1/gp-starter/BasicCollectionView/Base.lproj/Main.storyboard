@@ -30,17 +30,18 @@
                                     <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SY3-zL-c3u">
-                                            <rect key="frame" x="8" y="53.5" width="112" height="21"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SY3-zL-c3u">
+                                            <rect key="frame" x="8" y="8" width="112" height="112"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
                                     <constraints>
+                                        <constraint firstItem="SY3-zL-c3u" firstAttribute="top" secondItem="TeC-5d-eaR" secondAttribute="top" constant="8" id="08F-Z8-kca"/>
                                         <constraint firstItem="SY3-zL-c3u" firstAttribute="leading" secondItem="TeC-5d-eaR" secondAttribute="leading" constant="8" id="b5k-xC-60k"/>
+                                        <constraint firstAttribute="bottom" secondItem="SY3-zL-c3u" secondAttribute="bottom" constant="8" id="fww-Sf-hng"/>
                                         <constraint firstAttribute="trailing" secondItem="SY3-zL-c3u" secondAttribute="trailing" constant="8" id="sis-89-o3e"/>
-                                        <constraint firstItem="SY3-zL-c3u" firstAttribute="centerY" secondItem="TeC-5d-eaR" secondAttribute="centerY" id="vJA-Le-4UH"/>
                                     </constraints>
                                 </collectionViewCellContentView>
                                 <color key="backgroundColor" systemColor="systemTealColor"/>

@@ -10,8 +10,8 @@ import UIKit
 private let reuseIdentifier = "Cell"
 
 private let sectionedStates: [[String]] = [
-    ["Alabama", "Alaska", "Arizona", "Arkansas"],
-    ["California", "Colorado", "Connecticut"],
+    ["Montgomery, Montgomery County, State of Alabama", "Alaska", "Arizona", "Arkansas"],
+    ["Sacramento, Sacramento County, State of California", "Colorado", "Connecticut"],
     ["Delaware"],
     ["Florida"],
     ["Georgia"],
@@ -19,7 +19,7 @@ private let sectionedStates: [[String]] = [
     ["Idaho", "Illinois", "Indiana", "Iowa"],
     ["Kansas", "Kentucky"],
     ["Louisiana"],
-    ["Maine", "Maryland", "Massachusetts", "Michigan", "Minnesota", "Mississippi", "Missouri", "Montana"],
+    ["Maine", "Maryland", "Boston, Suffolk Couty, Commonwealth of Massachusetts", "Michigan", "Minnesota", "Mississippi", "Missouri", "Montana"],
     ["Nebraska", "Nevada", "New Hampshire", "New Jersey", "New Mexico", "New York", "North Carolina", "North Dakota"],
     ["Ohio", "Oklahoma", "Oregon"],
     ["Pennsylvania"],
@@ -55,31 +55,38 @@ class BasicCollectionViewController: UICollectionViewController {
     let spacing: CGFloat = 10
     
     // Item definition
+    // Item has an estimated height of 500 points; actual height value
+    // is determined at runtime based on the autolayout rules of the cell's subviews.
     let itemSize = NSCollectionLayoutSize(
       widthDimension: .fractionalWidth(1.0),
-      heightDimension: .fractionalHeight(1.0)
+      heightDimension: .estimated(500)
     )
     let item = NSCollectionLayoutItem(layoutSize: itemSize)
+    // Added edge spacing to separate items within their group
+    item.edgeSpacing = NSCollectionLayoutEdgeSpacing(
+      leading: NSCollectionLayoutSpacing.fixed(0),
+      top: NSCollectionLayoutSpacing.fixed(spacing),
+      trailing: NSCollectionLayoutSpacing.fixed(0),
+      bottom: NSCollectionLayoutSpacing.fixed(0)
+    )
     
     // Group definition
+    // Group has an estimated height of 500 points; actual height value
+    // is determined at runtime based on the determined size of each cell (item)
+    // within the group.
     let groupSize = NSCollectionLayoutSize(
       widthDimension: .fractionalWidth(1.0),
-      heightDimension: .absolute(70.0)
+      heightDimension: .estimated(500)
     )
     let group = NSCollectionLayoutGroup.horizontal(
       layoutSize: groupSize,
-      subitem: item,
-      count: 1)
-    group.contentInsets = NSDirectionalEdgeInsets(
-      top: spacing,
-      leading: 0,
-      bottom: 0,
-      trailing: 0
-    )
+      subitems: [item])
+    // Once an item or group uses the .estimated() value along an axis, you can't use contentInsets anymore
+//    group.contentInsets = NSDirectionalEdgeInsets(top: spacing, leading: 0, bottom: 0, trailing: 0)
     
     let section = NSCollectionLayoutSection(group: group)
     section.contentInsets = NSDirectionalEdgeInsets(
-      top: spacing,
+      top: 0,
       leading: spacing,
       bottom: spacing,
       trailing: spacing
