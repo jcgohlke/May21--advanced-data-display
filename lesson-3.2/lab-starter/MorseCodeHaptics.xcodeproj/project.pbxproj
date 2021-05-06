@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		182147BF23FEEB49005B6EFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182147BE23FEEB49005B6EFE /* AppDelegate.swift */; };
+		182147C123FEEB49005B6EFE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182147C023FEEB49005B6EFE /* SceneDelegate.swift */; };
+		182147C323FEEB49005B6EFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182147C223FEEB49005B6EFE /* ViewController.swift */; };
+		182147C623FEEB49005B6EFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182147C423FEEB49005B6EFE /* Main.storyboard */; };
+		182147C823FEEB4C005B6EFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 182147C723FEEB4C005B6EFE /* Assets.xcassets */; };
+		182147CB23FEEB4C005B6EFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182147C923FEEB4C005B6EFE /* LaunchScreen.storyboard */; };
+		182147D323FEEB63005B6EFE /* MorseCodeCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182147D223FEEB63005B6EFE /* MorseCodeCharacter.swift */; };
+		182147D723FEEB88005B6EFE /* MorseCodeWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182147D623FEEB88005B6EFE /* MorseCodeWord.swift */; };
+		188C8AFE23FEFCA500CD2B14 /* MorseCodeMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188C8AFD23FEFCA500CD2B14 /* MorseCodeMessage.swift */; };
+		188C8B0023FF011700CD2B14 /* MorseCodeSignal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188C8AFF23FF011700CD2B14 /* MorseCodeSignal.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		182147BB23FEEB49005B6EFE /* MorseCodeHaptics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MorseCodeHaptics.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		182147BE23FEEB49005B6EFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		182147C023FEEB49005B6EFE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		182147C223FEEB49005B6EFE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		182147C523FEEB49005B6EFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		182147C723FEEB4C005B6EFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		182147CA23FEEB4C005B6EFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		182147CC23FEEB4C005B6EFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		182147D223FEEB63005B6EFE /* MorseCodeCharacter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorseCodeCharacter.swift; sourceTree = "<group>"; };
+		182147D623FEEB88005B6EFE /* MorseCodeWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorseCodeWord.swift; sourceTree = "<group>"; };
+		188C8AFD23FEFCA500CD2B14 /* MorseCodeMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorseCodeMessage.swift; sourceTree = "<group>"; };
+		188C8AFF23FF011700CD2B14 /* MorseCodeSignal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorseCodeSignal.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		182147B823FEEB49005B6EFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		182147B223FEEB49005B6EFE = {
+			isa = PBXGroup;
+			children = (
+				182147BD23FEEB49005B6EFE /* MorseCodeHaptics */,
+				182147BC23FEEB49005B6EFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		182147BC23FEEB49005B6EFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				182147BB23FEEB49005B6EFE /* MorseCodeHaptics.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		182147BD23FEEB49005B6EFE /* MorseCodeHaptics */ = {
+			isa = PBXGroup;
+			children = (
+				182147CC23FEEB4C005B6EFE /* Info.plist */,
+				188C8AFF23FF011700CD2B14 /* MorseCodeSignal.swift */,
+				182147D223FEEB63005B6EFE /* MorseCodeCharacter.swift */,
+				182147D623FEEB88005B6EFE /* MorseCodeWord.swift */,
+				188C8AFD23FEFCA500CD2B14 /* MorseCodeMessage.swift */,
+				182147C223FEEB49005B6EFE /* ViewController.swift */,
+				182147C423FEEB49005B6EFE /* Main.storyboard */,
+				182147BE23FEEB49005B6EFE /* AppDelegate.swift */,
+				182147C023FEEB49005B6EFE /* SceneDelegate.swift */,
+				182147C723FEEB4C005B6EFE /* Assets.xcassets */,
+				182147C923FEEB4C005B6EFE /* LaunchScreen.storyboard */,
+			);
+			path = MorseCodeHaptics;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		182147BA23FEEB49005B6EFE /* MorseCodeHaptics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 182147CF23FEEB4C005B6EFE /* Build configuration list for PBXNativeTarget "MorseCodeHaptics" */;
+			buildPhases = (
+				182147B723FEEB49005B6EFE /* Sources */,
+				182147B823FEEB49005B6EFE /* Frameworks */,
+				182147B923FEEB49005B6EFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MorseCodeHaptics;
+			productName = MorseCodeHaptics;
+			productReference = 182147BB23FEEB49005B6EFE /* MorseCodeHaptics.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		182147B323FEEB49005B6EFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				TargetAttributes = {
+					182147BA23FEEB49005B6EFE = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 182147B623FEEB49005B6EFE /* Build configuration list for PBXProject "MorseCodeHaptics" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 182147B223FEEB49005B6EFE;
+			productRefGroup = 182147BC23FEEB49005B6EFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				182147BA23FEEB49005B6EFE /* MorseCodeHaptics */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		182147B923FEEB49005B6EFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182147CB23FEEB4C005B6EFE /* LaunchScreen.storyboard in Resources */,
+				182147C823FEEB4C005B6EFE /* Assets.xcassets in Resources */,
+				182147C623FEEB49005B6EFE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		182147B723FEEB49005B6EFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182147C323FEEB49005B6EFE /* ViewController.swift in Sources */,
+				182147BF23FEEB49005B6EFE /* AppDelegate.swift in Sources */,
+				188C8AFE23FEFCA500CD2B14 /* MorseCodeMessage.swift in Sources */,
+				182147C123FEEB49005B6EFE /* SceneDelegate.swift in Sources */,
+				182147D323FEEB63005B6EFE /* MorseCodeCharacter.swift in Sources */,
+				182147D723FEEB88005B6EFE /* MorseCodeWord.swift in Sources */,
+				188C8B0023FF011700CD2B14 /* MorseCodeSignal.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		182147C423FEEB49005B6EFE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				182147C523FEEB49005B6EFE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		182147C923FEEB4C005B6EFE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				182147CA23FEEB4C005B6EFE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		182147CD23FEEB4C005B6EFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		182147CE23FEEB4C005B6EFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		182147D023FEEB4C005B6EFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = MorseCodeHaptics/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MorseCodeHaptics;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		182147D123FEEB4C005B6EFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = MorseCodeHaptics/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MorseCodeHaptics;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		182147B623FEEB49005B6EFE /* Build configuration list for PBXProject "MorseCodeHaptics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182147CD23FEEB4C005B6EFE /* Debug */,
+				182147CE23FEEB4C005B6EFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		182147CF23FEEB4C005B6EFE /* Build configuration list for PBXNativeTarget "MorseCodeHaptics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182147D023FEEB4C005B6EFE /* Debug */,
+				182147D123FEEB4C005B6EFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 182147B323FEEB49005B6EFE /* Project object */;
+}
