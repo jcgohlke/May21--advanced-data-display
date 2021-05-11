@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Alarm" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="dgB-Zz-k0g">
+                                <rect key="frame" x="47" y="340" width="320" height="216"/>
+                                <date key="date" timeIntervalSinceReferenceDate="547082234.11638296">
+                                    <!--2018-05-03 23:17:14 +0000-->
+                                </date>
+                            </datePicker>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AL8-ay-iFS">
+                                <rect key="frame" x="173.5" y="586" width="67" height="30"/>
+                                <state key="normal" title="Set Alarm"/>
+                                <connections>
+                                    <action selector="setAlarmButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="igH-B5-8qh"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Set your alarm below" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="orI-ur-RmB">
+                                <rect key="frame" x="127" y="289.5" width="160.5" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="dgB-Zz-k0g" firstAttribute="top" secondItem="orI-ur-RmB" secondAttribute="bottom" constant="30" id="BcN-Tn-BXi"/>
+                            <constraint firstItem="AL8-ay-iFS" firstAttribute="top" secondItem="dgB-Zz-k0g" secondAttribute="bottom" constant="30" id="J18-dt-hUX"/>
+                            <constraint firstItem="dgB-Zz-k0g" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="KB6-4m-SVD"/>
+                            <constraint firstItem="orI-ur-RmB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="UZP-JH-2rG"/>
+                            <constraint firstItem="orI-ur-RmB" firstAttribute="width" relation="lessThanOrEqual" secondItem="dgB-Zz-k0g" secondAttribute="width" id="VFy-BJ-kLB"/>
+                            <constraint firstItem="AL8-ay-iFS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mc2-5L-rfU"/>
+                            <constraint firstItem="dgB-Zz-k0g" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="oEn-yo-9cH"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="alarmLabel" destination="orI-ur-RmB" id="FsR-LJ-a4Y"/>
+                        <outlet property="datePicker" destination="dgB-Zz-k0g" id="oHR-mD-Pb3"/>
+                        <outlet property="scheduleButton" destination="AL8-ay-iFS" id="1nH-53-7g9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
