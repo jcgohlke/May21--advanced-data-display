@@ -1,0 +1,99 @@
+[
+    {
+        "name": "Meditation",
+        "categoryName": "Mindfulness",
+        "info": "Focus on quieting your mind. Pay attention to your breath and observe your thoughts."
+    },
+    {
+        "name": "Deep breathing",
+        "categoryName": "Mindfulness",
+        "info": "A good way to settle your mind and relax."
+    },
+    {
+        "name": "Stretching",
+        "categoryName": "Exercise",
+        "info": "Get a bit of extra oxygen into your muscles and keep your tendons flexible."
+    },
+    {
+        "name": "Yoga",
+        "categoryName": "Exercise",
+        "info": "Center yourself in your body and calm your mind, while also improving your fitness and flexibility."
+    },
+    {
+        "name": "Brisk walk",
+        "categoryName": "Exercise",
+        "info": "Get your heart rate up with this simple aerobic exercise."
+    },
+    {
+        "name": "Portion of salad",
+        "categoryName": "Eating",
+        "info": "Raw greens and other ingredients promote overall health, while also helping those who're counting calories."
+    },
+    {
+        "name": "Portion of fruit",
+        "categoryName": "Eating",
+        "info": "A healthy treat. Recommended for daily consumption."
+    },
+    {
+        "name": "Glass of water",
+        "categoryName": "Eating",
+        "info": "Drinking enough water is one of the easiest ways to maintain daily health and wellbeing."
+    },
+    {
+        "name": "Article",
+        "categoryName": "Culture",
+        "info": "Get out of your social network and take time to read a long-form piece that helps you focus and keeps you informed."
+    },
+    {
+        "name": "Book chapter",
+        "categoryName": "Culture",
+        "info": "Make some progress in that favorite book—relax and engage your imagination!"
+    },
+    {
+        "name": "Podcast",
+        "categoryName": "Culture",
+        "info": "Keep up with your favorite topics."
+    },
+    {
+        "name": "Live music",
+        "categoryName": "Culture",
+        "info": "Go enjoy your favorite artists, or discover new ones!"
+    },
+    {
+        "name": "Volunteering",
+        "categoryName": "Civic Participation",
+        "info": "Take some time to help out in your community. Giving back is one of the best ways to feel fulfilled."
+    },
+    {
+        "name": "Phone banking",
+        "categoryName": "Civic Participation",
+        "info": "Reach out to advocate for a cause you're passionate about. Work towards a better future one person at a time."
+    },
+    {
+        "name": "Demonstration",
+        "categoryName": "Civic Participation",
+        "info": "Make your voice heard while attracting attention for your cause."
+    },
+    {
+        "name": "Writing",
+        "categoryName": "Creativity",
+        "info": "Limber up your brain by expressing yourself with the written word. Poetry, fiction, essays, correspondence—all are great ways to share your ideas with others."
+    },
+    {
+        "name": "Music practice",
+        "categoryName": "Creativity",
+        "info": "Getting good at an instrument is all about practice. Work on perfecting your art so you can share the beauty of music with audiences large or small."
+    },
+    {
+        "name": "Painting",
+        "categoryName": "Creativity",
+        "info": "Learn the theory of color, try out the techniques of the masters, experiment with your own style, or just break out the finger paint."
+    },
+    {
+        "name": "Drawing",
+        "categoryName": "Creativity",
+        "info": "Sketch, scribble, design, doodle—all great activities to flex your creative muscles and shift mental gears."
+    }
+]
+ 
+ 

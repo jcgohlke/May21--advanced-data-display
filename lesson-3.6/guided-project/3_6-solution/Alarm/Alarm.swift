@@ -56,7 +56,7 @@ struct Alarm: Codable {
     Alarm.scheduled = nil
   }
   
-  private func authorizeIfNeeded(completion: @escaping (Bool) -> ()) {
+  private func authorizeIfNkeeded(completion: @escaping (Bool) -> ()) {
     let notificationCenter = UNUserNotificationCenter.current()
     notificationCenter.getNotificationSettings { (settings) in
       switch settings.authorizationStatus {
